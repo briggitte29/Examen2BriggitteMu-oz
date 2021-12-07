@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".segundoFragmento"
+    android:orientation="vertical"
+    android:background="@color/blanco"
+    >
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Le Bonnet"
+        android:textSize="30sp"
+        android:textColor="@color/texR"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/AMS"
+        android:gravity="center"
+        android:textColor="@color/texR"
+    />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:src="@drawable/star"
+
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Your"
+            android:gravity="center"
+            android:textSize="55sp"
+            android:textStyle="bold"
+            />
+
+
+
+    <TextView
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="345dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/we"
+        android:textColor="@color/negro"
+        android:gravity="center"
+       />
+
+    <ImageView
+        android:id="@+id/btnIr"
+        android:layout_width="250dp"
+        android:layout_height="105dp"
+        android:src="@drawable/flecha_derecha"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:layout_marginVertical="10dp"
+        android:clickable="true"
+        android:focusable="true"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:layout_gravity="bottom"
+        android:src="@drawable/elchico"
+        />
+
+    </FrameLayout>
+
+
+
+</LinearLayout>

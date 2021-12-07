@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="20dp"
+    android:layout_marginVertical="16dp"
+
+    >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/plomo"
+            android:orientation="vertical"
+            >
+
+            <com.android.volley.toolbox.NetworkImageView
+                android:id="@+id/imgNetwork"
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:padding="16dp"
+                android:background="@color/blanco"
+                android:scaleType="centerCrop"
+                />
+
+            <TextView
+                android:id="@+id/txtNombre"
+                android:textAlignment="center"
+                style="@style/MaterialAlertDialog.MaterialComponents.Title.Text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:layout_gravity="center"
+                android:text="Gorra Personal"
+                android:textSize="20sp"
+                />
+
+        </LinearLayout>
+
+
+
+</com.google.android.material.card.MaterialCardView>

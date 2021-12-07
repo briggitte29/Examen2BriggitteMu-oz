@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Examen</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="AMS">AMSTERDAM</string>
+    <string name="Your">YOUR EVERYDAY BEANIE</string>
+    <string name="we">We got you covered</string>
+    <string name="Parrafo">Best beanie ever made by mankind. This product features the Caregora certificate. Sourced and manufactured in Scotiand.</string>
+</resources>
