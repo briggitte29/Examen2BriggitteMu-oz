@@ -1,5 +1,7 @@
 package com.example.examen;
 
+import android.content.Context;
+import android.content.Intent;
 import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -27,7 +29,11 @@ public class ProductoCardViewHolder extends RecyclerView.ViewHolder {
         itemView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(itemView.getContext(), "Nombre: "+ nombre.getText(), Toast.LENGTH_SHORT).show();
+                Context context=view.getContext();
+                Intent intent=new Intent(context,TercerActivity.class);
+                intent.putExtra("nombre",nombre.getText());
+                context.startActivity(intent);
+
             }
         });
 

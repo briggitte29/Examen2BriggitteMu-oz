@@ -37,7 +37,7 @@
                 android:id="@+id/textoClick"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="What's the right deal for you?(click)"
+                android:text="What's the right deal for you?"
                 android:textStyle="bold"
                 android:textSize="50sp"
                 android:textColor="@color/negro"
@@ -46,7 +46,6 @@
                 android:fontFamily="sans-serif-thin"
                 android:textAlignment="textStart"
                 android:layout_marginBottom="16dp"
-                android:clickable="true"
                 />
 
 

@@ -50,27 +50,7 @@ public class primerFragmento extends Fragment {
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
-        TextView text=view.findViewById(R.id.textoClick);
-        text.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                // Crear fragmento de tu clase
-                Fragment fragment = new tercerFragmento();
-                // Obtener el administrador de fragmentos a través de la actividad
-                FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
-                // Definir una transacción
-                FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
-                // Remplazar el contenido principal por el fragmento
-                fragmentTransaction.replace(R.id.container, fragment);
-                fragmentTransaction.addToBackStack(null);
-                // Cambiar
-                fragmentTransaction.commit();
-            }
-        });
     }
-
-
-
 
     private void setUpToolbar(View view){
         Toolbar toolbar=view.findViewById(R.id.app_bar);
